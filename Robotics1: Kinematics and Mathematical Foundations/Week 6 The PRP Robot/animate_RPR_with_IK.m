@@ -12,8 +12,11 @@ d2_0 = 0;
 theta3_0 = 0;
 
 theta1_1 = pi;
-d2_1 = 10;
-theta3_1 = 0;
+d2_1 = -10;
+theta3_1 = pi/2;
+
+[pos, R] = RPR_fk(theta1_1, d2_1, theta3_1);
+ik_sol = RPR_ik(pos(1), pos(2), pos(3),  R);
 
 % Use below code if you want to randomise
 %theta1_0 = rand(1) * 2 * pi;
@@ -43,8 +46,8 @@ hrobot = plot3([0 0 10], [0 0 0], [0 6 6],'k.-','linewidth',2,'markersize',10);
 pause(GraphingTimeDelay);
 for i = 1:totalTimeSteps
    
-    t = i/totalTimeSteps;
-    pos = RPR_fk(theta1_0*(1-t) + theta1_1*(t), d2_0*(1-t) + d2_1*(t), theta3_0*(1-t) + theta3_1*(t));
+    t = i/totalTimeSteps
+    pos = RPR_fk(ik_sol(1) *t, ik_sol(2) *t, ik_sol(3) *t);
     
     set(hrobot,'xdata',[pos(1, 1) pos(2, 1) pos(3, 1) ]',...
         'ydata',[pos(1, 2) pos(2, 2) pos(3, 2) ]',...
