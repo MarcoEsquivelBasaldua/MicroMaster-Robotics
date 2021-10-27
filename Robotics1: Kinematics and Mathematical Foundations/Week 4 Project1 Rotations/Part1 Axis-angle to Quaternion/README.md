@@ -1,9 +1,7 @@
 # Convert axis-angle representation to a quaternion
 
 This script converts axis-angle representation to quaternion form.<br />
-$$
-Q = [cos(\theta/2),\ \vec{r}sin(\theta/2)]
-$$
+<img src="https://render.githubusercontent.com/render/math?math=Q = [cos(\theta/2),\ \vec{r}sin(\theta/2)]">
 
 
 ### Input format
