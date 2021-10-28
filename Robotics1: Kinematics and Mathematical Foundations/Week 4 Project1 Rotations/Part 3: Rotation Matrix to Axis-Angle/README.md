@@ -1,7 +1,7 @@
 # Convert a given rotation matrix to axis-angle representation
 
 This script converts the rotation matrix R into axis-angle form.<br />
-The general form of the equation is:
+The general form of the equation is:<br />
 ![img1](img1.png)<br />
 
 However, it can be seen that the above equation for r is not valid when sin(theta)=0. This are the singularity cases at theta=0, theta=pi and theta=-pi which need to be handeled separately. When theta = 0, we have infinite solutions, as it represents no rotation. So r can be any arbitrary vector.<br />
