@@ -1,7 +1,7 @@
 # Laplacian Blending
 
 The Laplacian pyramid algorithm for blending is used on the iconic example from the paper of Burt and Anderson. Below, you can look the two images we want to blend.<br />
-![apple|20x20](apple.png) ![orange](orange.png){ width: 200px; }<br />
+![apple,50%](apple.png) ![orange](orange.png){ width: 200px; }<br />
 
 If we crop the left part of an image and the right part of the other and attempt to merge them we will get a mediocre result:<br />
 ![img1](img1.png)<br />
