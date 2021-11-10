@@ -6,5 +6,5 @@ In this project the Euler-Lagrange equations of motion are derived for Sawyer, a
 Figure 1: Sawyer, a 7 degree of freedom robotic manipulator from Rethink Robotics (Pictues: rethinkrobotics.com)<br />
 
 The coordinate frames, dimensions and generalized coordinates are shown below in Figure 2.<br />
-![img3](sawyer-figure.png)<br />
+![img3](sawyer_figure.png)<br />
 Figure 2: Sawyer coordinate frames with link labels in red, dimensions in green, and generalized coordinates in blue.
