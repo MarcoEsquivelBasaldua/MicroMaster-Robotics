@@ -1,4 +1,4 @@
-# Modelling of a Robot Arm
+# Modelling of a Robot Arm (Euler-Lagrange Equations of Motion) 
 
 In this project the Euler-Lagrange equations of motion are derived for Sawyer, a state of the art 7 degree of freedom robotic arm developed by Rethink Robotics shown below in figure 1.<br />
 ![img1](sawyer-1.jpg) 
