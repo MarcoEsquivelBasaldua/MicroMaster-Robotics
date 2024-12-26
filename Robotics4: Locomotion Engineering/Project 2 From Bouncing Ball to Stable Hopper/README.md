@@ -50,3 +50,7 @@ Given the hopper specifications: mass $m = 3$(Kg), rest length $\chi_0 = 0.3$(m)
 Until now, we have been looking at a very simple version of a hopper. This simple mass-spring-damper model is what we call a "template" of a hopper. A template is the simplest model that exhibits a targeted behavior. We can now try to embed more joints and actuator into the system, like what a leg really could look like. This action is called anchoring, and the reason for anchoring could be that we want to add more actuator to strengthen the system or to make a system more realizable. In the case of the Electromagnetic Virtual Spring model hopper mentioned in the last chapter, it is hard to realize due to the fact that linear actuators are slow and bulky, thus we will anchor this design to a more applicable mechanism.<br />
 ![img5](fig7.png)<br />
 Given the hopper specifications: mass $m = 3$(Kg), rest length $\chi_0 = 0.3$(m), the air-spring constant $k = 60$(N.m), viscous damping coefficient $b = 6$(N s/m), the script in Part2/Part2-2 simulates the control strategy.
+
+The final result simulation is here shown
+
+![Final result](P25Result.gif)
