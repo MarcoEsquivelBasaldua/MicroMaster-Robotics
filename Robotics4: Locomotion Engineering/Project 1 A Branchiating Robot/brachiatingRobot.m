@@ -1,4 +1,3 @@
-function [ ] = brachiatingRobot( )
 %BRACHIATINGROBOT Simulates a brachiating robot
 %   Detailed explanation goes 
 close('all');
@@ -21,6 +20,3 @@ maxstep=1e-3;
 options=odeset('RelTol',reltol,'MaxStep',maxstep,'AbsTol',abstol);
 [T,Y]=ode23s(@brachiatingDynamics,tspan,y0,options,m1,m2,lc1,lc2,l1,l2,i1,i2,g);
 plotBrachBot(Y,T,l1,l2,lc1,lc2); 
-
-end
-
