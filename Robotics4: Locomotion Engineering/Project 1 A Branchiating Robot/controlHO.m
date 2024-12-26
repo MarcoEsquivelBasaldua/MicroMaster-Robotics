@@ -24,7 +24,7 @@ k1 = g*((l_c1*m_1+l_1*m_2)*sin(theta_1) + l_c2*m_2*sin(theta_1 + theta_2));
 k2 = g*l_c2*m_2*sin(theta_1+theta_2);
 bq1 = l_1*l_c2*m_2*sin(theta_2)*(-2*theta_d1 - theta_d2)*theta_d2;
 bq2 = l_1*l_c2*m_2*sin(theta_2)*theta_d1^2;
-u = [0;tau];
+%u = [0;tau];
 K = [k1;k2];
 Bq = [bq1;bq2];
 
