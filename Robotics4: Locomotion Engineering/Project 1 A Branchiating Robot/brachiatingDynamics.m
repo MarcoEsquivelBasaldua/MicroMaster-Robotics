@@ -1,4 +1,4 @@
-function sys = brachiatingDynamics(t,yi,m_1,m_2,l_c1,l_c2,l1,l2,I_1,I_2,g)
+function sys = brachiatingDynamics(t,yi,m_1,m_2,l_c1,l_c2,l_1,l_2,I_1,I_2,g)
 %BRACHIATINGDYNAMICS This function contains the EOM for a two-link
 %brachiating robot
 %   Detailed explanation goes here
